@@ -9,9 +9,20 @@ import PropTypes from 'prop-types'
 class Sidebar extends Component {
  state = {}
  render() {
-  return(
-   <div>Sidebar</div>
-    )
+  return (
+    <div id="side-bar">
+      <div className="user-profile">
+        <div>
+          <img />
+        </div>
+        <div>
+          Ronald
+        </div>
+      </div>
+      <div className="user-channels"></div>
+      
+    </div>
+  );
    }
  }
 
