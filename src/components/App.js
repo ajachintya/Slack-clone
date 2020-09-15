@@ -1,17 +1,10 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { SignIn,Slack } from './'
-
+import { SignIn, Slack } from './';
 
 function Home() {
   return <div>Home</div>;
-  
 }
-
-function Some() {
-  return <div>Some</div>;
-}
-
 
 class App extends Component {
   render() {

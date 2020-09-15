@@ -1,19 +1,17 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from 'react';
 import { Sidebar, MainContainer } from './';
 
 class Slack extends Component {
- state = {}
- render() {
-  return(
-    <div>
-      <Sidebar />
-      <MainContainer />
-    </div>  
-    )
-   }
- }
+  state = {};
+  render() {
+    return (
+      <div id="slack">
+        <Sidebar />
+        <MainContainer />
+      </div>
+    );
+  }
+}
 
-
-Slack.propTypes = {}
-export default Slack
+Slack.propTypes = {};
+export default Slack;
